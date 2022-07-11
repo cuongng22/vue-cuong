@@ -1,0 +1,8 @@
+<p>bai05-evenbinding works!</p>
+<button (click)="function()">click</button>
+
+<select (change)="change()">
+  <option *ngFor="let product of products">
+    {{product.name}}
+  </option>
+</select>
